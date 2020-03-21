@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 800 727.85">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:20px}.cls-4{isolation:isolate;font-size:84.14px;fill:#fff;font-family:HelveticaLTStd-Bold,Helvetica LT Std;font-weight:700}
+        </style>
+    </defs>
+    <title>
+        Asset 1
+    </title>
+	<circle transform="translate(300 300)" class="border" cx="0" cy="0" r="350" fill="transparent" stroke="white" stroke-width="25">
+		<animateTransform attributeName="transform"
+             type="scale"
+			 additive="sum" 
+             values="1; 1.04; 1"
+    		 keyTimes="0; 0.5; 1"
+             begin="0s"
+             dur="2s"
+             repeatCount="indefinite"
+        />
+	</circle>
+
+	<circle transform="translate(300 300)" class="border" cx="0" cy="0" r="370" fill="transparent" stroke="rgba(255, 255, 255, 0.5)" stroke-width="30">
+		<animateTransform attributeName="transform"
+             type="scale"
+			 additive="sum" 
+             values="1; 1.04; 1"
+    		 keyTimes="0; 0.5; 1"
+             begin="-0.4s"
+             dur="2s"
+             repeatCount="indefinite"
+        />
+	</circle>
+
+<style>
+	text{
+		font-family: Arial
+	}
+</style>
+
+	<g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <line class="cls-1" x1="10" y1="397.95" x2="590" y2="397.95"/>
+            <line class="cls-1" x1="92.11" y1="356.45" x2="92.11" y2="153.45"/>
+            <line class="cls-1" x1="506.58" y1="356.95" x2="506.58" y2="153.95"/>
+            <polyline class="cls-1" points="92.15 153.54 279.24 10 318.94 10 506.03 153.54"/>
+            <g style="opacity:.2">
+                <line class="cls-1" x1="38" y1="387.95" x2="564" y2="387.95"/>
+                <line class="cls-1" x1="112.47" y1="349.22" x2="112.47" y2="159.8"/>
+                <line class="cls-1" x1="488.35" y1="349.69" x2="488.35" y2="160.27"/>
+                <polyline class="cls-1" points="112.5 159.89 282.18 25.95 318.18 25.95 487.85 159.89"/>
+            </g>
+            <g id="ich_bin_zuhause" data-name="ich bin zuhause" style="isolation:isolate">
+                <text font-family="Arial" class="cls-4" transform="translate(228.08 205.78)">
+                    ICH
+                </text>
+                <text font-family="Arial" class="cls-4" transform="translate(228.08 306.74)">
+                    BIN
+                </text>
+                <text font-family="Arial" class="cls-4" transform="translate(99.31 508.67)">
+                    ZUH<tspan x="172.9" y="0" style="letter-spacing:-.05em">A</tspan><tspan x="229.44" y="0">USE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

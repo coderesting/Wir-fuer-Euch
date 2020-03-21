@@ -1,0 +1,12 @@
+#home{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 10px 0px 0px 0px;
+}
+
+#homeButton{
+	width: 90%;
+	height: 100%;
+}

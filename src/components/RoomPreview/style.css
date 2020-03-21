@@ -1,0 +1,13 @@
+.roomPreview{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--background-color-dark);
+	padding: 20%;
+	border-radius: 15px;
+	opacity: 0.5;
+}
+
+.roomPreview.active{
+	opacity: 1;
+}

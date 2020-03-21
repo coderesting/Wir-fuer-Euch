@@ -1,0 +1,26 @@
+#navigation {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: space-around;
+	box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.16), 0 -3px 6px rgba(0, 0, 0, 0.23);
+	width: 100%;
+}
+
+#navigation > a {
+	padding: 10px;
+	font-size: 0.7em;
+	flex-direction: column;
+	color: #0D47A1;
+	display: flex;
+	align-items: center;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+#navigation > a.active {
+	color: var(--app-color);
+}
+
+#navigation > a > span{
+	text-align: center;
+}
