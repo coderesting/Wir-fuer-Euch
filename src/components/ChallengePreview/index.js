@@ -4,11 +4,10 @@ import { IconContext } from "react-icons";
 
 import './style.css';
 
-class RoomPreview extends React.Component {
+class ChallengePreview extends React.Component {
 	render() {
-		let activeClass = this.props.active ? 'active' : '';
 		return (
-			<div onClick={this.props.onClick} className={'roomPreview '+activeClass}>
+			<div onClick={this.props.onClick} className="challengePreview">
 				<IconContext.Provider value={{ color: "var(--app-color)", size: "100%"}}>
 					{this.props.icon}
 				</IconContext.Provider>
@@ -17,4 +16,4 @@ class RoomPreview extends React.Component {
 	}
 }
 
-export default RoomPreview;
+export default ChallengePreview;

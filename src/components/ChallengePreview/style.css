@@ -1,17 +1,9 @@
-.roomPreview{
+.challengePreview{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--background-color-dark);
 	padding: 20%;
 	border-radius: 15px;
-	opacity: 0.7;
-	pointer-events: none;
-}
-
-.roomPreview.active{
-	opacity: 1;
 	border: solid var(--app-color) 10px;
 	background: var(--background-color);
-	pointer-events: auto;
 }

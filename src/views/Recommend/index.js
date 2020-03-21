@@ -2,14 +2,14 @@ import React from 'react'
 
 import './style.css'
 
-class Tips extends React.Component {
+class Recommend extends React.Component {
   render () {
     return (
 		<div className="view">
-			tips
+			Weitersagen	
 		</div>
     )
   }
 }
 
-export default Tips;
+export default Recommend;

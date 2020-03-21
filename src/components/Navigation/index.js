@@ -19,31 +19,24 @@ class Navigation extends React.Component {
 						<span>Home</span>
 					</NavLink>
 
-					<NavLink to="/verlauf">
+					<NavLink to="/points">
 						<MdTimeline/>
 						<span>Punkte</span>
 					</NavLink>
 
-					<NavLink to="/recomend">
+					<NavLink to="/recommend">
 						<FiMessageCircle/>
 						<span>Weitersagen</span>
 					</NavLink>
 
-					<NavLink to="/tips">
+					<NavLink to="/orga">
 						<GoGift/>
-						<span>Orga vorschlagen</span>
+						<span>Orga</span>
 					</NavLink>
 				</IconContext.Provider>
-				
 			</div>
 		);
 	}
-
-	checkActive = (match, location) => {
-		if (!location) return false;
-		const { pathname } = location;
-		return pathname === '/';
-	};
 }
 
 export default Navigation;

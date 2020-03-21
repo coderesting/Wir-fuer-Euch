@@ -1,14 +1,13 @@
 import React from 'react';
 
-import House from 'views/House'
-
+import House from 'components/House'
 import {ReactComponent as HomeButton} from 'assets/homeButton.svg';
 
 import './style.css';
 
 class Home extends React.Component {
 	state = {
-		isHome: false
+		isHome: true
 	}
 	render() {
 		return (

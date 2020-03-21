@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 import {Person} from '@material-ui/icons';
 
@@ -18,12 +19,6 @@ class Header extends React.Component {
 			</div>
 		);
 	}
-
-	checkActive = (match, location) => {
-		if (!location) return false;
-		const { pathname } = location;
-		return pathname === '/';
-	};
 }
 
 export default Header;
