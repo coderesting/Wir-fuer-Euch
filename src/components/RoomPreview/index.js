@@ -9,7 +9,7 @@ class RoomPreview extends React.Component {
 		let activeClass = this.props.active ? 'active' : '';
 		return (
 			<div onClick={this.props.onClick} className={'roomPreview '+activeClass}>
-				<IconContext.Provider value={{ color: "var(--app-color)", size: "100%"}}>
+				<IconContext.Provider value={{ color: "var(--app-color)", size: '100%'}}>
 					{this.props.icon}
 				</IconContext.Provider>
 			</div>

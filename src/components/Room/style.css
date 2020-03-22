@@ -1,6 +1,24 @@
-#gamePreviews{
+#room{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#room > h2{
+	margin: 10px auto;
+	color: var(--app-color);
+}
+
+#room > #gamePreviews{
+	flex-shrink: 1;
+	width: 100%;
+	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 10px;
+	overflow: hidden;
 }

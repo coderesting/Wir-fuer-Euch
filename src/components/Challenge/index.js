@@ -5,7 +5,7 @@ import './style.css'
 class Challenge extends React.Component {
   render () {
     return (
-		<div className="view" id="game">
+		<div id="challenge">
 			Challenge: {this.props.name}
 		</div>
     )

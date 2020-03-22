@@ -1,0 +1,48 @@
+{
+	"isHome": false,
+	"showWelcome": true,
+	"currentFlat": 0,
+	"flats": [
+		{
+			"name": "1. Etage",
+			"currentRoom": null,
+			"rooms": [
+				{
+					"name": "Wohnzimmer",
+					"activities": [
+						{
+							"name": "Weckerspiel"
+						}
+					]
+				},
+				{
+					"name": "Küche",
+					"activities": [
+						{
+							"name": "Weckerspiel"
+						}
+					]
+				},
+				{
+					"name": "Schlafzimmer",
+					"title": "Guten morgen Sonnenschein",
+					"description": "Das Schlafzimmer ...",
+					"enter": "In das Schlafzimmer gehen",
+					"activities": [
+						{
+							"name": "Weckerspiel"
+						}
+					]
+				},
+				{
+					"name": "Badezimmer",
+					"activities": [
+						{
+							"name": "Weckerspiel"
+						}
+					]
+				}
+			]
+		}
+	]
+}
