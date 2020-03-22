@@ -31,10 +31,10 @@ class Room extends React.Component {
 						<React.Fragment>
 							<h1>{this.props.room.name}</h1>
 							<div id="gamePreviews">
-								<ChallengePreview onClick={this.openChallenge.bind(this, 'sport')} icon={<FaDumbbell/>}/>
-								<ChallengePreview onClick={this.openChallenge.bind(this, 'health')} icon={<FaHeart/>}/>
+								<ChallengePreview onClick={this.openChallenge.bind(this, 'sport')} notImplemented={true} icon={<FaDumbbell/>}/>
+								<ChallengePreview onClick={this.openChallenge.bind(this, 'health')} notImplemented={true} icon={<FaHeart/>}/>
 								<ChallengePreview onClick={this.openChallenge.bind(this, 'brain')} icon={<FaPuzzlePiece/>}/>
-								<ChallengePreview onClick={this.openChallenge.bind(this, 'group')} icon={<MdChatBubble/>}/>
+								<ChallengePreview onClick={this.openChallenge.bind(this, 'group')} notImplemented={true} icon={<MdChatBubble/>}/>
 							</div>
 						</React.Fragment>
 				}

@@ -13,4 +13,25 @@
 	opacity: 1;
 	border: solid var(--app-color) 10px;
 	background: var(--background-color);
+	position: relative;
+}
+
+.challengePreview.notImplemented{
+	pointer-events: none;
+}
+
+.challengePreview.notImplemented:after{
+	content: 'In Entwicklung';
+	position: absolute;
+	top:0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	transform: rotate(-45deg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
