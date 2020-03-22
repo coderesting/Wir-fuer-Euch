@@ -26,7 +26,7 @@
 				{
 					"name": "Schlafzimmer",
 					"title": "Guten morgen Sonnenschein",
-					"description": "Das Schlafzimmer ...",
+					"description": "Das Schlafzimmer ist normalerweise der erste Raum, den du morgens wahrnimmst. Deshalb beginnen wir hier. Du kannst dir hier deine erste Aufgabe für den Tag aussuchen.",
 					"enter": "In das Schlafzimmer gehen",
 					"activities": [
 						{

@@ -3,7 +3,8 @@ import React from 'react'
 import firebase from 'firebase.js';
 
 import { IconContext } from "react-icons";
-import { FaTwitter, FaFacebook, FaGoogle, FaLinkedin } from 'react-icons/fa'
+import { FaTwitter, FaFacebook, FaGoogle, FaLinkedin } from 'react-icons/fa';
+import { MdPerson } from 'react-icons/md';
 
 import './style.css'
 
@@ -63,7 +64,7 @@ class Login extends React.Component {
 				</div>
 				
 				<div className="provider" data-providername="anonymous" onClick={this.anonymousLogin.bind(this)}>
-					Anonym
+					<MdPerson/>
 				</div>
 			</IconContext.Provider>
 		</div>

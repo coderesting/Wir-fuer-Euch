@@ -1,0 +1,10 @@
+#pointDisplay{
+	display: flex;
+	align-items: center;
+}
+
+#pointDisplay > span{
+	color: var(--app-color);
+	font-size: 30px;
+	margin: 0px 5px;
+}

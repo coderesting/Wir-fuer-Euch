@@ -1,0 +1,18 @@
+#orga{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#orgaForm, #orgaEnd{
+	margin: auto;
+	width: 70%;
+	height: 100%;
+	background-image: url(/assets/orga.png);
+	background-position: center;
+	background-size: cover;
+}
+
+#orgaEnd{
+	background-image: url(/assets/orgaSuccess.png);
+}
