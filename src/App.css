@@ -22,6 +22,8 @@ body {
 
 #root{
 	height: 100%;
+	max-width: 500px;
+	margin: auto;
 }
 
 #app{
@@ -53,3 +55,9 @@ a {
 	color: inherit;
 }
 
+@media screen and (min-width: 500px){
+	#root{
+		border-left: solid black 5px;
+		border-right: solid black 5px;
+	}
+}
