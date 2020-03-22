@@ -10,9 +10,9 @@ class Challenge extends React.Component {
 		<div className="view" id="game">
 			{
 				(this.props.name) == 'brain' ?
-				<ChallengeAlarm/>
+					<ChallengeAlarm/>
 				:
-				<span>Challenge: {this.props.name}</span>
+					<span>Challenge: {this.props.name} noch nicht vorhanden</span>
 			}
 			
 		</div>

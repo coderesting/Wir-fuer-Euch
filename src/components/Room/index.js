@@ -13,7 +13,7 @@ import './style.css';
 class Room extends React.Component {
 	state = {
 		currentChallenge: null,
-		showWelcome: true,
+		showWelcome: false,
 	}
 
 	render() {

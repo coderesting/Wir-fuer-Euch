@@ -1,11 +1,11 @@
 {
-	"isHome": false,
-	"showWelcome": true,
+	"isHome": true,
+	"showWelcome": false,
 	"currentFlat": 0,
 	"flats": [
 		{
 			"name": "1. Etage",
-			"currentRoom": null,
+			"currentRoom": 2,
 			"rooms": [
 				{
 					"name": "Wohnzimmer",
@@ -24,6 +24,7 @@
 					]
 				},
 				{
+					"showWelcome": false,
 					"name": "Schlafzimmer",
 					"title": "Guten morgen Sonnenschein",
 					"description": "Das Schlafzimmer ist normalerweise der erste Raum, den du morgens wahrnimmst. Deshalb beginnen wir hier. Du kannst dir hier deine erste Aufgabe für den Tag aussuchen.",
