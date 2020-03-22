@@ -19,7 +19,7 @@ class Flat extends React.Component {
 						<Room room={rooms[currentRoom]}/>
 					:
 						<React.Fragment>
-							<h2>1. Etage</h2>
+							<h1>{this.props.flat.name}</h1>
 							<div id="roomsOverview">
 								<div id="roomPreviews">
 									<RoomPreview onClick={this.openRoom.bind(this, 0)} icon={<FaCouch/>}/>

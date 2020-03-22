@@ -46,7 +46,8 @@ class Login extends React.Component {
   render () {
     return (
 		<div className="provider" id="login">
-			<IconContext.Provider value={{ color: "var(--background-color)"}}>
+			<IconContext.Provider value={{color: "var(--background-color)"}}>
+				<h1>Login</h1>
 				<div className="provider" data-providername="twitter">
 					<FaTwitter/>
 				</div>

@@ -10,9 +10,10 @@
 	width: 100%;
 }
 
-#header h2 {
-	margin: 10px 5px;
+#header img {
+	margin: 6px;
 	color: var(--text-color);
+	height: 50px
 }
 
 #header > #account{

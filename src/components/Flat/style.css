@@ -2,12 +2,12 @@
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 }
 
-#flat > h2{
+#flat > h1{
 	margin: 10px auto;
 	color: var(--app-color);
 }
@@ -15,7 +15,7 @@
 #flat > #roomsOverview{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 70%;
 }
 
 #flat > #roomsOverview > #roomPreviews{

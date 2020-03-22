@@ -12,7 +12,7 @@ class Header extends React.Component {
 		return (
 			<div id="header">
 				<NavLink to="/">
-					<h2>#Wir für Euch</h2>
+					<img src="/assets/logo.png" />
 				</NavLink>
 
 				<NavLink to="/points">

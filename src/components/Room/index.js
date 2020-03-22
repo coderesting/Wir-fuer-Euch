@@ -13,7 +13,7 @@ import './style.css';
 class Room extends React.Component {
 	state = {
 		currentChallenge: null,
-		showWelcome: false,
+		showWelcome: true,
 	}
 
 	render() {
@@ -29,7 +29,7 @@ class Room extends React.Component {
 						<Challenge name={this.state.currentChallenge} />
 					:
 						<React.Fragment>
-							<h2>{this.props.name}</h2>
+							<h1>{this.props.room.name}</h1>
 							<div id="gamePreviews">
 								<ChallengePreview onClick={this.openChallenge.bind(this, 'sport')} icon={<FaDumbbell/>}/>
 								<ChallengePreview onClick={this.openChallenge.bind(this, 'health')} icon={<FaHeart/>}/>

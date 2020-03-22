@@ -6,11 +6,15 @@
 	justify-content: center;
 }
 
+#login > h1{
+	color: var(--app-color);
+}
+
 #login > .provider{
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	margin: 5px;
-	padding: 10px;
+	padding: 15px;
 	background-color: var(--app-color);
 	border-radius: 100%;
 }
